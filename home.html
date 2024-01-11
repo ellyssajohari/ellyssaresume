@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ellyssa's E-Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+}
+
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #0C4D2E;
+  color: #D9D3D7;
+  border-bottom: 2px solid #035752;
+}
+
+.header h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.side-navigation {
+  height: calc(100% - 200px);
+  width: 20%;
+  background-color: whitesmoke;
+  float: left;
+  border-top: 2px solid #035752;
+}
+
+.side-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 2px solid #035752;
+  border-right: 2px solid #035752;
+}
+
+.side-navigation li a {
+  display: block;
+  color: #035752;
+  padding: 40px;
+  text-decoration: none;
+  height: 50.00%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #D9D3D7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+.side-navigation li a.active {
+  background-color: #035752;
+  color: #D9D3D7;
+}
+
+.side-navigation li a:hover:not(.active) {
+  background-color: #0C4D2E;
+  color: whitesmoke;
+}
+
+.side-navigation li:last-child a {
+  border-bottom: none;
+}
+
+
+.main-content {
+  margin-left: 20%;
+  padding: 10px;
+  min-height: 100vh;
+  text-align: center;
+  color: #035752;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-content h5 {
+  margin: 10px 0;
+}
+
+.main-content img {
+  height: 150px;
+  width: 250px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+video {
+      width: 250px;
+      height: 200px;
+      border: 2px solid #0C4D2E;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #D9D3D7;
+  clear: both;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <a href="IMS ELLYSSA STUDENT PROFILE.pdf" target="_blank">
+      <img src="logo.png" alt="logo" style="width:200px;height:200px;">
+    </a>
+    <h1>Ellyssa's E-Resume</h1>
+    <p>This page belongs to Ellyssa Sue Izzieana</p>
+  </div>
+
+  <div class="side-navigation">
+    <ul>
+      <li><a class="active" href="index.html" target="_blank">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./education.html">Education</a></li>
+      <li><a href="./skills.html">Skills</a></li>
+      <li><a href="./experiences.html">Experiences</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <h2>Profile</h2>
+    <img src="ellyssa.jpeg" alt="ellyssa" style="width: 200px; height: 200px; border: 2px solid #0C4D2E;">
+    <br>
+    <h2>Video Resume</h2>
+    <video controls>
+      <source src="ELLYSSA SUE IZZIEANA BINTI JOHARI VIDEO RESUME.mp4">
+    </video>
+  </div>
+
+  <div class="footer">
+    <p>&copy;2023 Ellyssa E Resume. All rights reserved.</p>
+  </div>
+
+</body>
+</html>
